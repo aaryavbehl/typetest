@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
 
 :root{
-    --bgColor: #201414;
+    --bgColor: #000000;
     --textPrimary: #ffffff;
     --textSecondary: #666;
     --primaryColor: rgba(0, 255, 242, 0.6);
@@ -20,7 +20,7 @@ main{
 }
 
 h1{
-    color: var(--primaryColor);
+    color: yellow;
 }
 
 h1 svg{
@@ -43,12 +43,14 @@ h1 svg{
 }
 
 button{
-    background: var(--primaryColor);
+    background: cyan;
     border: 0;
     color: var(--textPrimary);
     padding: 5px 20px;
     border-radius: 5px;
     cursor: pointer;
+    font-family: Helvetica;
+    font-weight: bold;
 }
 
 div#game{
@@ -89,7 +91,7 @@ div.word{
 }
 
 .letter.correct{
-    color: #fff;
+    color: #6fffbc;
 }
 
 .letter.incorrect{
